@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Companion | Your 24/7 Health Partner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo">Wellness.</div>
+                <a href="#cta" class="nav-cta">Get Started</a>
+            </nav>
+            <div class="hero-content">
+                <h1 id="dynamic-headline">Loading your day...</h1>
+                <p class="subtitle">AI-powered personalized health plans, available 24/7.</p>
+                <a href="#cta" class="button-primary">Start Your Personalized Plan</a>
+            </div>
+        </div>
+        <div id="hero-animation"></div>
+    </header>
+
+    <main>
+        <section class="problem-section">
+            <div class="container">
+                <h2>Every Part of Your Day Has Its Own Challenges.</h2>
+                <p class="section-intro">We understand the daily cycle of ups and downs. That's why we're built for your entire day.</p>
+                <div class="problem-cards">
+                    <div class="card">
+                        <div id="lottie-morning" class="lottie-icon"></div>
+                        <h3>Morning</h3>
+                        <p>Waking up with brain fog, anxiety about the day ahead, and the struggle to build a consistent routine.</p>
+                    </div>
+                    <div class="card">
+                        <div id="lottie-afternoon" class="lottie-icon"></div>
+                        <h3>Afternoon</h3>
+                        <p>The dreaded energy crash, mounting stress from work, and making unhealthy snack choices.</p>
+                    </div>
+                    <div class="card">
+                        <div id="lottie-evening" class="lottie-icon"></div>
+                        <h3>Evening</h3>
+                        <p>Difficulty unwinding, digital burnout from screens, and finding quality time for self-reflection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solution-section">
+            <div class="container">
+                <h2>Your Constant Companion, Timed to Your Life.</h2>
+                <p class="section-intro">Our app provides the right guidance at the right time, turning challenges into opportunities for growth.</p>
+                <div class="solution-visual">
+                    <img src="https://i.ibb.co/wYjM0rY/phone-mockup.png" alt="App interface on a smartphone" class="phone-mockup">
+                </div>
+            </div>
+        </section>
+
+        <section class="social-proof-section">
+            <div class="container">
+                <h2>Guided by Experts, Trusted by Users.</h2>
+                <div class="testimonials">
+                    <div class="testimonial-card">
+                        <p>"For the first time, I feel in control of my health, morning, noon, and night. A true game-changer."</p>
+                        <span>- Jessica M., San Francisco</span>
+                    </div>
+                     <div class="testimonial-card">
+                        <p>"The evening wind-down sessions have completely transformed my sleep quality. I wake up refreshed."</p>
+                        <span>- David L., New York</span>
+                    </div>
+                     <div class="testimonial-card">
+                        <p>"As a doctor, I recommend this to my patients. It's grounded in science and genuinely supportive."</p>
+                        <span>- Dr. Anya Sharma, MD</span>
+                    </div>
+                </div>
+                <div class="trust-badges">
+                    <h4>HIPAA COMPLIANT & ENCRYPTED</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section">
+            <div class="container">
+                 <h2 id="dynamic-cta-headline">Ready to begin?</h2>
+                 <p class="section-intro">Get a personalized plan that adapts to your life. It takes 2 minutes.</p>
+                 <form class="cta-form">
+                     <input type="email" placeholder="Enter your email address" required>
+                     <button type="submit" class="button-primary">Get Started For Free</button>
+                 </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Wellness Companion Inc. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
